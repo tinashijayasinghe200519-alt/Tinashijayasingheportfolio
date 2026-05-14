@@ -1,9 +1,10 @@
+/*body*/
 body{
 margin:0;
 font-family:Segoe UI, Arial;
 background:#f4f4f4;
 }
-
+/*header*/
 header{
 display:flex;
 justify-content:space-between;
@@ -29,7 +30,7 @@ font-weight:500;
 nav a:hover{
 color:#0077ff;
 }
-
+/*home*/
 .home-container{
 display:flex;
 align-items:center;
@@ -60,7 +61,7 @@ cursor:pointer;
 width:300px;
 border-radius:10px;
 }
-
+/*about*/
 .about-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
@@ -74,7 +75,7 @@ padding:25px;
 border-radius:10px;
 box-shadow:0 3px 10px rgba(0,0,0,0.1);
 }
-
+/*skills*/
 .skills li{
 background:#0e2f2f;
 color:white;
@@ -83,7 +84,7 @@ padding:10px;
 border-radius:5px;
 list-style:none;
 }
-
+/*blog*/
 .blog-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -107,7 +108,7 @@ color:white;
 cursor:pointer;
 border-radius:5px;
 }
-
+/*contact*/
 .contact-section{
 padding:80px;
 }
