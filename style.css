@@ -267,3 +267,41 @@ text-decoration:underline;
         width:250px;
     }
 }
+/* =========================
+   TOGGLE MENU
+========================= */
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    color:white;
+}
+
+/* =========================
+   MOBILE RESPONSIVE NAVBAR
+========================= */
+
+@media(max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    nav{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        margin-top:15px;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        padding:10px 0;
+    }
+
+}
